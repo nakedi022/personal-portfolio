@@ -1,0 +1,163 @@
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.left {
+  width: 50%;
+  background-color: #fff;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center vertically */
+  align-items: center; /* Center horizontally */
+  height: 100vh; /* Fill the entire viewport height */
+}
+
+
+.profile img {
+  width: 200px; /* Adjust the width as needed */
+  height: 200px; /* Adjust the height as needed */
+  border-radius: 50%; /* Makes the image round */
+  margin-bottom: 20px;
+}
+
+.profile h1,
+.profile p {
+  font-family: 'Space Mono', monospace;
+}
+
+.profile {
+  text-align: center;
+}
+
+.name {
+  font-family: 'Space Mono', monospace;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.title {
+  font-family: 'Space Mono', monospace;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.contact-btn {
+  display: block;
+  width: 100px;
+  padding: 10px;
+  text-align: center;
+  background-color: #000;
+  color: #fff;
+  text-decoration: none;
+  margin: 0 auto 20px;
+  text-decoration: none;
+}
+
+.contact-btn:hover {
+  background-color: #333;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.social-icons .icon img {
+  width: 30px;
+  height: 30px;
+}
+
+.right {
+  width: 50%;
+  background-color: #f9f9f9;
+  padding: 20px;
+  height: 100%; /* Fill the entire height */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.about-me h2 {
+  font-family: 'Space Mono', monospace;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.about-me p {
+  line-height: 1.6;
+}
+
+.resume-btn {
+  padding: 30px;
+  display: block;
+  width: 100px;
+  padding: 10px;
+  text-align: center;
+  background-color: #000;
+  color: #fff;
+  text-decoration: none;
+}
+
+.resume-btn:hover {
+  background-color: #333;
+}
+
+/* Your existing CSS styles */
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.profile {
+  text-align: center;
+}
+
+.profile img {
+  width: 200px; /* Adjust the width as needed */
+  height: 200px; /* Adjust the height as needed */
+  border-radius: 50%; /* Makes the image round */
+  margin-bottom: 20px;
+}
+
+.profile h1,
+.profile p {
+  font-family: 'Space Mono', monospace;
+}
+
+.btn {
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+/* Additional styles for about section, footer, and social icons */
+
+
+
